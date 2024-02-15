@@ -10,6 +10,7 @@ body {
 /* first section */
 .section-one {
     display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -18,6 +19,7 @@ body {
 
 .hide-one {
     display: none;
+    transition: 1s ease-in;
 }
 
 .section-one h1 {
@@ -51,3 +53,62 @@ body {
     color: #fff;
 }
 /* first section */
+
+
+/* second section */
+.section-two {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two .main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    height: 30rem;
+    border-radius: 0.8rem;
+    background-color: rgb(53, 47, 68);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.section-two .main-box .auxiliary-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37rem;
+    height: 10rem;
+    border-radius: 0.8rem;
+    background-color: #141414;
+    transform: translate(0, -50%);
+}
+
+.section-two .main-box .auxiliary-box .extra-box {
+    width: 36rem;
+    height: 9rem;
+    background-color: #fff;
+    border-radius: 0.8rem;
+}
+
+.section-two .main-box .kbd-main {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-two .main-box .kbd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bolder;
+    background-color: #fff;
+}
+/* second section */

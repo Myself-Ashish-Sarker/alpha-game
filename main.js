@@ -1,12 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
-    // DOM declaration
-    const sectionOne = document.querySelector(".section-one")
+const sectionOne = document.querySelector(".section-one")
 
-    const btnOne = document.querySelector(".btn-one")
-    // DOM declaration
+const btnOne = document.querySelector(".btn-one")
+// DOM declaration
 
-    btnOne.addEventListener("click", () => {
-        console.log("OK!")
-        sectionOne.classList.add("hide-one")
-    })
+btnOne.addEventListener("click", () => {
+    console.log("OK!")
+    sectionOne.classList.add("hide-one")
 })
+
+
