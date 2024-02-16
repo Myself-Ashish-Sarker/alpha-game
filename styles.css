@@ -90,6 +90,16 @@ body {
     border-radius: 0.8rem;
 }
 
+.game-box .main-box .auxiliary-box .extra-box h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
 .game-box .main-box .kbd-main {
     display: flex;
     gap: 0.5rem;
