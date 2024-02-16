@@ -1,84 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- jet brains font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
-    <!-- jet brains font -->
+        <!-- jet brains font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- jet brains font -->
 
-    <!-- daisyUI CDN -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <!-- daisyUI CDN -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script> -->
 
-    <!-- daisyUI CDN -->
+        <!-- daisyUI CDN -->
 
-    <!-- linking css -->
-    <link rel="stylesheet" href="./styles.css">
-    <!-- linking css -->
+        <!-- linking css -->
+        <link rel="stylesheet" href="./styles.css" />
+        <!-- linking css -->
 
-    <title>Document</title>
-</head>
-<body>
-    
-    <!-- first box -->
-    <section class="section-one">
-        <h1>ALPHABET CLASH</h1>
-        <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
-        <button class="btn-one">play now</button>
-    </section>
-    <!-- first box -->
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- first box -->
+        <section class="section-one">
+            <div class="welcome-box">
+                <h1>ALPHABET CLASH</h1>
+                <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
+                <button class="btn-one">play now</button>
+            </div>
+        </section>
+        <!-- first box -->
 
-
-    <!-- seconds section -->
-    <section class="section-two">
-        <div class="main-box">
-            <div class="auxiliary-box">
-                <div class="extra-box">
-                    
+        <!-- seconds section -->
+        <section class="section-two">
+            <div class="game-box">
+                <div class="main-box">
+                    <div class="auxiliary-box">
+                        <div class="extra-box"></div>
+                    </div>
+                    <div class="kbd-main">
+                        <div class="q kbd">q</div>
+                        <div class="w kbd">w</div>
+                        <div class="e kbd">e</div>
+                        <div class="r kbd">r</div>
+                        <div class="t kbd">t</div>
+                        <div class="y kbd">y</div>
+                        <div class="u kbd">u</div>
+                        <div class="i kbd">i</div>
+                        <div class="o kbd">o</div>
+                        <div class="p kbd">p</div>
+                    </div>
+                    <div class="kbd-main">
+                        <div class="a kbd">a</div>
+                        <div class="s kbd">s</div>
+                        <div class="d kbd">d</div>
+                        <div class="f kbd">f</div>
+                        <div class="g kbd">g</div>
+                        <div class="h kbd">h</div>
+                        <div class="j kbd">j</div>
+                        <div class="k kbd">k</div>
+                        <div class="l kbd">l</div>
+                    </div>
+                    <div class="kbd-main">
+                        <div class="z kbd">z</div>
+                        <div class="x kbd">x</div>
+                        <div class="c kbd">c</div>
+                        <div class="v kbd">v</div>
+                        <div class="b kbd">b</div>
+                        <div class="n kbd">n</div>
+                        <div class="m kbd">m</div>
+                    </div>
                 </div>
             </div>
-            <div class="kbd-main">
-                <div class="q kbd">q</div>
-                <div class="w kbd">w</div>
-                <div class="e kbd">e</div>
-                <div class="r kbd">r</div>
-                <div class="t kbd">t</div>
-                <div class="y kbd">y</div>
-                <div class="u kbd">u</div>
-                <div class="i kbd">i</div>
-                <div class="o kbd">o</div>
-                <div class="p kbd">p</div>
-            </div>
-            <div class="kbd-main">
-                <div class="a kbd">a</div>
-                <div class="s kbd">s</div>
-                <div class="d kbd">d</div>
-                <div class="f kbd">f</div>
-                <div class="g kbd">g</div>
-                <div class="h kbd">h</div>
-                <div class="j kbd">j</div>
-                <div class="k kbd">k</div>
-                <div class="l kbd">l</div>
-            </div>
-            <div class="kbd-main">
-                <div class="z kbd">z</div>
-                <div class="x kbd">x</div>
-                <div class="c kbd">c</div>
-                <div class="v kbd">v</div>
-                <div class="b kbd">b</div>
-                <div class="n kbd">n</div>
-                <div class="m kbd">m</div>
-            </div>
-        </div>
-    </section>
-    <!-- seconds section -->
+        </section>
+        <!-- seconds section -->
 
-    <!-- linking javascript -->
-    <script src="./main.js"></script>
-    <!-- linking javascript -->
-</body>
+        <!-- third section -->
+        <section class="section-three">
+            <div class="final-box">
+                <div class="score-box">
+                    <h1>Score: <span>0</span></h1>
+                    <button class="btn-three">play again!</button>
+                    <p>Practice will make you Pro</p>
+                </div>
+            </div>
+        </section>
+        <!-- third section -->
+
+        <!-- linking javascript -->
+        <script src="./main.js"></script>
+        <!-- linking javascript -->
+    </body>
 </html>
